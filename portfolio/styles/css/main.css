@@ -6,7 +6,7 @@
   transition: all 0.15s ease-out 0s; }
 
 .toggle {
-  position: fixed;
+  position: absolute;
   top: 20px;
   right: 0;
   bottom: 0;
@@ -56,6 +56,8 @@
     margin-left: 180px; }
   #sidebar_toggler:checked + .page-wrap h2 {
     margin-left: 180px; }
+  #sidebar_toggler:checked + .page-wrap h3 {
+    margin-left: 180px; }
 
 #splash {
   background: ivory;
@@ -67,13 +69,17 @@
     font-family: Offside;
     font-size: 100px;
     color: red;
-    margin-top: 25%; }
+    margin-top: 20%; }
   #splash h2 {
     display: inline-block;
     font-family: Offside;
     font-size: 30px;
     color: red; }
+  #splash .hvr-pulse-grow {
+    color: red;
+    font-size: 80px;
+    cursor: pointer; }
 
 #project_1 {
   background: honeydew;
-  height: 75vh; }
+  height: 90vh; }
