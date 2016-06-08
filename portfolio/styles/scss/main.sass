@@ -1,17 +1,21 @@
 @import 'bourbon'
 
+// ********** Page contents **********
 .contents
   position: relative
   z-index: 0
   +transition()
 
+// ********** Hamburger icon **********
 .toggle
   +position(fixed, 20px 0 0 20px)
   +transition()
   z-index: 1
   width: 50px
   margin-top: -7px
+  cursor: pointer
 
+// ********** Slideout sidebar **********
 .sidebar
   +position(fixed, 0px 0 0px -190px)
   +transition()
@@ -19,15 +23,19 @@
   padding: 10px
   background: red
   z-index: 0
+  font-family: Offside
+  font-weight: bolder
 
   ul
     list-style: none
+    margin-top: 15px
 
   li
     color: rgba(255, 255, 255, 0.8)
     font-size: 16px
-    margin-bottom: 10px
+    margin-bottom: 25px
     -webkit-font-smoothing: antialiased
+    cursor: pointer
 
     &:hover
       color: rgba(255, 255, 255, 1)
@@ -35,6 +43,8 @@
 #sidebar_toggler
   display: none
 
+  // When toggler is checked, move hamburger 200px from left
+  // Set sidebar at 0 left and add padding to sidebar-width to offset page contents
   &:checked + .page-wrap
 
     .sidebar
@@ -43,5 +53,34 @@
     .toggle
       left: 200px
 
-    .contents
-      padding-left: 180px
+    h1
+      margin-left: 180px
+
+    h2
+      margin-left: 180px
+
+// ********** Superhero jumbotron **********
+#splash
+  background: ivory
+  height: 100vh
+  margin-top: -20px
+  text-align: center
+
+  h1
+    display: inline-block
+    font-family: Offside
+    font-size: 100px
+    color: red
+    margin-top: 25%
+
+  h2
+    display: inline-block
+    font-family: Offside
+    font-size: 30px
+    color: red
+
+
+// ********** Project 1 **********
+#project_1
+  background: honeydew
+  height: 75vh
