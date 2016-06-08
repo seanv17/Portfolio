@@ -3,16 +3,26 @@
   z-index: 0;
 }
 
+.toggle {
+  position: fixed;
+  top: 10px;
+  left: 200px;
+  height: 50px;
+  z-index: 1;
+  cursor: pointer;
+}
+
 .sidebar {
   position: fixed;
-  top: 0;
-  left: 0;
+  top: 0px;
+  left: 0px;
   width: 180px;
   padding: 10px;
   background: red;
   z-index: 0;
   height: 100%;
 }
+
 .sidebar ul { list-style-type: none; }
 
 .sidebar li {
@@ -23,3 +33,11 @@
 }
 
 .sidebar li:hover { color: rgba(255, 255, 255, 1); }
+
+#sidebar_toggler {
+  display: none;
+}
+
+#sidebar_toggler:checked + .sidebar {
+    left: 0px;
+}
