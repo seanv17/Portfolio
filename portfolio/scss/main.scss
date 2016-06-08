@@ -1,0 +1,34 @@
+@import 'bourbon'
+
+.contents
+  position: relative
+  z-index: 0
+
+.toggle
+  +position(fixed, 10px 0 0 200px)
+  height: 50px
+  z-index: 1
+  cursor: pointer
+
+.sidebar
+  +position(fixed, 0px 0 0px -180px)
+  width: 180px
+  padding: 10px
+  background: red
+  z-index: 0
+  height: 100%
+
+  ul
+    list-style-type: none
+
+  li
+    color: rgba(255, 255, 255, 0.8)
+    margin-bottom: 10px
+    -webkit-font-smoothing: antialiased
+    cursor: pointer
+
+    &:hover
+      color: rgba(255, 255, 255, 1)
+
+#sidebar_toggler
+  display: none
