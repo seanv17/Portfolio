@@ -44,7 +44,7 @@
   display: none
 
   // When toggler is checked, move hamburger 200px from left
-  // Set sidebar at 0 left and add padding to sidebar-width to offset page contents
+  // Set sidebar at 0 left and add padding to to offset text elements
   &:checked + .page-wrap
 
     .sidebar
@@ -53,14 +53,8 @@
     .toggle
       left: 200px
 
-    h1
-      margin-left: 180px
-
-    h2
-      margin-left: 180px
-
-    h3
-      margin-left: 180px
+    .text_elements
+      margin-left: 90px
 
 // ********** Superhero jumbotron **********
 #splash
@@ -68,13 +62,14 @@
   height: 100vh
   margin-top: -20px
   text-align: center
+  position: relative
 
-  h1
+  .text_elements
+    position: absolute
     display: inline-block
-    font-family: Offside
-    font-size: 100px
-    color: red
-    margin-top: 20%
+    top: 60%
+    left: 50%
+    transform: translate(-50%, -50%)
 
   h2
     display: inline-block
@@ -86,6 +81,85 @@
     color: red
     font-size: 80px
     cursor: pointer
+
+  .link--yaku
+    color: red
+    font-family: Offside
+    font-size: 90px
+    overflow: hidden
+    padding: 0 0 10px
+
+  .link--yaku:hover::before
+    -webkit-transform: translate3d(0,0,0)
+    transform: translate3d(0,0,0)
+
+  .link--yaku span
+    display: inline-block
+    position: relative
+    -webkit-transform: perspective(1000px) rotate3d(0,1,0,0deg)
+    transform: perspective(1000px) rotate3d(0,1,0,0deg)
+    -webkit-transition: -webkit-transform 0.5s, color 0.5s
+    transition: transform 0.5s, color 0.5s
+
+  .link--yaku:hover span
+    color: #1e1a1b
+    -webkit-transform: perspective(1000px) rotate3d(0,1,0,360deg)
+    transform: perspective(1000px) rotate3d(0,1,0,360deg)
+
+  .link--yaku span:nth-child(11),
+  .link--yaku:hover span:first-child
+    -webkit-transition-delay: 0s
+    transition-delay: 0s
+
+  .link--yaku span:nth-child(10),
+  .link--yaku:hover span:nth-child(2)
+    -webkit-transition-delay: 0.1s
+    transition-delay: 0.1s
+
+  .link--yaku span:nth-child(9),
+  .link--yaku:hover span:nth-child(3)
+    -webkit-transition-delay: 0.2s
+    transition-delay: 0.2s
+
+  .link--yaku span:nth-child(8),
+  .link--yaku:hover span:nth-child(4)
+    -webkit-transition-delay: 0.3s
+    transition-delay: 0.3s
+
+  .link--yaku span:nth-child(7),
+  .link--yaku:hover span:nth-child(5)
+    -webkit-transition-delay: 0.4s
+    transition-delay: 0.4s
+
+  .link--yaku span:nth-child(6),
+  .link--yaku:hover span:nth-child(6)
+    -webkit-transition-delay: 0.5s
+    transition-delay: 0.5s
+
+  .link--yaku span:nth-child(5),
+  .link--yaku:hover span:nth-child(7)
+    -webkit-transition-delay: 0.6s
+    transition-delay: 0.6s
+
+  .link--yaku span:nth-child(4),
+  .link--yaku:hover span:nth-child(8)
+    -webkit-transition-delay: 0.7s
+    transition-delay: 0.7s
+
+  .link--yaku span:nth-child(3),
+  .link--yaku:hover span:nth-child(9)
+    -webkit-transition-delay: 0.8s
+    transition-delay: 0.8s
+
+  .link--yaku span:nth-child(2),
+  .link--yaku:hover span:nth-child(10)
+    -webkit-transition-delay: 0.9s
+    transition-delay: 0.9s
+
+  .link--yaku span:first-child,
+  .link--yaku:hover span:nth-child(11)
+    -webkit-transition-delay: 1s
+    transition-delay: 1s
 
 // ********** Project 1 **********
 #project_1

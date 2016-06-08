@@ -52,24 +52,21 @@
     left: 0px; }
   #sidebar_toggler:checked + .page-wrap .toggle {
     left: 200px; }
-  #sidebar_toggler:checked + .page-wrap h1 {
-    margin-left: 180px; }
-  #sidebar_toggler:checked + .page-wrap h2 {
-    margin-left: 180px; }
-  #sidebar_toggler:checked + .page-wrap h3 {
-    margin-left: 180px; }
+  #sidebar_toggler:checked + .page-wrap .text_elements {
+    margin-left: 90px; }
 
 #splash {
   background: ivory;
   height: 100vh;
   margin-top: -20px;
-  text-align: center; }
-  #splash h1 {
+  text-align: center;
+  position: relative; }
+  #splash .text_elements {
+    position: absolute;
     display: inline-block;
-    font-family: Offside;
-    font-size: 100px;
-    color: red;
-    margin-top: 20%; }
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
   #splash h2 {
     display: inline-block;
     font-family: Offside;
@@ -79,6 +76,70 @@
     color: red;
     font-size: 80px;
     cursor: pointer; }
+  #splash .link--yaku {
+    color: red;
+    font-family: Offside;
+    font-size: 90px;
+    overflow: hidden;
+    padding: 0 0 10px; }
+  #splash .link--yaku:hover::before {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); }
+  #splash .link--yaku span {
+    display: inline-block;
+    position: relative;
+    -webkit-transform: perspective(1000px) rotate3d(0, 1, 0, 0deg);
+    transform: perspective(1000px) rotate3d(0, 1, 0, 0deg);
+    -webkit-transition: -webkit-transform 0.5s, color 0.5s;
+    transition: transform 0.5s, color 0.5s; }
+  #splash .link--yaku:hover span {
+    color: #1e1a1b;
+    -webkit-transform: perspective(1000px) rotate3d(0, 1, 0, 360deg);
+    transform: perspective(1000px) rotate3d(0, 1, 0, 360deg); }
+  #splash .link--yaku span:nth-child(11),
+  #splash .link--yaku:hover span:first-child {
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s; }
+  #splash .link--yaku span:nth-child(10),
+  #splash .link--yaku:hover span:nth-child(2) {
+    -webkit-transition-delay: 0.1s;
+    transition-delay: 0.1s; }
+  #splash .link--yaku span:nth-child(9),
+  #splash .link--yaku:hover span:nth-child(3) {
+    -webkit-transition-delay: 0.2s;
+    transition-delay: 0.2s; }
+  #splash .link--yaku span:nth-child(8),
+  #splash .link--yaku:hover span:nth-child(4) {
+    -webkit-transition-delay: 0.3s;
+    transition-delay: 0.3s; }
+  #splash .link--yaku span:nth-child(7),
+  #splash .link--yaku:hover span:nth-child(5) {
+    -webkit-transition-delay: 0.4s;
+    transition-delay: 0.4s; }
+  #splash .link--yaku span:nth-child(6),
+  #splash .link--yaku:hover span:nth-child(6) {
+    -webkit-transition-delay: 0.5s;
+    transition-delay: 0.5s; }
+  #splash .link--yaku span:nth-child(5),
+  #splash .link--yaku:hover span:nth-child(7) {
+    -webkit-transition-delay: 0.6s;
+    transition-delay: 0.6s; }
+  #splash .link--yaku span:nth-child(4),
+  #splash .link--yaku:hover span:nth-child(8) {
+    -webkit-transition-delay: 0.7s;
+    transition-delay: 0.7s; }
+  #splash .link--yaku span:nth-child(3),
+  #splash .link--yaku:hover span:nth-child(9) {
+    -webkit-transition-delay: 0.8s;
+    transition-delay: 0.8s; }
+  #splash .link--yaku span:nth-child(2),
+  #splash .link--yaku:hover span:nth-child(10) {
+    -webkit-transition-delay: 0.9s;
+    transition-delay: 0.9s; }
+  #splash .link--yaku span:first-child,
+  #splash .link--yaku:hover span:nth-child(11) {
+    -webkit-transition-delay: 1s;
+    transition-delay: 1s; }
 
 #project_1 {
   background: honeydew;
