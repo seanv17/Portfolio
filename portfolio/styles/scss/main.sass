@@ -31,14 +31,11 @@
     margin-top: 15px
 
   li
-    color: rgba(255, 255, 255, 0.8)
+    // color: rgba(255, 255, 255, 0.8)
     font-size: 16px
     margin-bottom: 25px
     -webkit-font-smoothing: antialiased
     cursor: pointer
-
-    &:hover
-      color: rgba(255, 255, 255, 1)
 
 #sidebar_toggler
   display: none
@@ -55,6 +52,37 @@
 
     .text_elements
       margin-left: 90px
+
+nav a
+  position: relative
+  display: inline-block
+  color: rgba(255, 255, 255, 1)
+  text-decoration: none
+  text-shadow: 0 0 1px rgba(255,255,255,0.3)
+
+  &:hover,
+  &:focus
+    text-decoration: none
+
+.link_effect a
+  color: rgba(255, 255, 255, 0.8)
+  text-shadow: none
+
+.link_effect a::before
+  position: absolute
+  overflow: hidden
+  max-width: 0
+  border-bottom: 2px solid #fff
+  color: rgba(255, 255, 255, 1)
+  content: attr(data-hover)
+  -webkit-transition: max-width 0.5s
+  -moz-transition: max-width 0.5s
+  transition: max-width 0.5s
+
+.link_effect a:hover::before,
+.link_effect a:focus::before
+  max-width: 100%
+
 
 // ********** Superhero jumbotron ********** //
 #splash
