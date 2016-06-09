@@ -180,14 +180,15 @@ nav a {
     position: absolute;
     left: 34%;
     top: 7%; }
+  #project_1 .projects {
+    height: 378.88px;
+    overflow-y: scroll; }
   #project_1 #RDC {
-    margin-top: 25%;
-    height: 378.88px; }
-    #project_1 #RDC #RDC_image {
+    margin-top: 25%; }
+    #project_1 #RDC .project_images {
       width: 780px;
       margin-left: -15px;
-      padding-right: 5px;
-      attachment: fixed; }
+      padding-right: 5px; }
   #project_1 #RDC_blurb {
     margin-top: 25%;
     height: 378.88px;
