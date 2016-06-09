@@ -168,4 +168,16 @@ nav a {
 
 #project_1 {
   background: honeydew;
-  height: 100vh; }
+  height: 100vh;
+  position: relative; }
+  #project_1 #project_header {
+    border-top: solid;
+    border-bottom: solid;
+    padding: 10px;
+    font-family: Megrim;
+    color: red;
+    font-weight: bolder;
+    font-size: 100px;
+    position: absolute;
+    left: 34%;
+    top: 7%; }
