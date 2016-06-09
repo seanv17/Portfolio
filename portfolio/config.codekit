@@ -1250,6 +1250,17 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/images\/ga_social.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 324323,
+		"inputAbbreviatedPath": "\/images\/ga_social.jpeg",
+		"outputAbbreviatedPath": "\/images\/ga_social.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/hamburger.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1279,6 +1290,17 @@
 		"initialSize": 2.60578e+06,
 		"inputAbbreviatedPath": "\/images\/RDC.png",
 		"outputAbbreviatedPath": "\/images\/RDC.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/vagabond.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 522956,
+		"inputAbbreviatedPath": "\/images\/vagabond.jpeg",
+		"outputAbbreviatedPath": "\/images\/vagabond.jpeg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
