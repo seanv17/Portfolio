@@ -92,10 +92,10 @@ nav a
 
   .text_elements
     position: absolute
-    display: inline-block
     top: 60%
     left: 50%
     transform: translate(-50%, -50%)
+    width: 750px
 
   h2
     display: inline-block
@@ -103,7 +103,7 @@ nav a
     font-size: 30px
     color: red
 
-  // ********** Pulsing hover effect on down arrow ********** //
+  // ********** Bouncing down arrow ********** //
   .hvr-pulse-grow
     color: red
     font-size: 80px
@@ -231,6 +231,7 @@ nav a
 .project_container
   position: relative
   background-color: ivory
+  height: 440vh
 
 .project_headers
   border-bottom: solid
@@ -245,10 +246,59 @@ nav a
   transform: translate(-50%, -50%)
 
 #RDC_header
-  top: 4%
+  top: 2.5%
 
 #ga_header
-  top: 37.3%
+  top: 25%
 
 #vagabond_header
-  top: 70.5%
+  top: 47.5%
+
+#coder_confessions_header
+  top: 70%
+
+// ********** Resizes text elements when resizing screen ********** //
+@media(max-width: 1217px)
+  .text_elements
+    .link--yaku span
+      font-size: 70px
+
+@media(max-width: 960px)
+  .text_elements
+    .link--yaku span
+      font-size: 60px
+  #splash h2
+    font-size: 26px
+
+// iPhone 5
+@media(max-width: 320px)
+  .text_elements
+    .link--yaku span
+      font-size: 35px
+  #splash h2
+    font-size: 14px
+
+// iPhone 6
+@media(max-width: 375px)
+  .text_elements
+    .link--yaku span
+      font-size: 40px
+  #splash h2
+    font-size: 14px
+
+body
+  position: relative
+
+.footer
+  position: absolute
+  right: 0
+  bottom: 0
+  left: 0
+  padding-top: 30px
+  background-color: red
+  height: 140px
+  text-align: center
+
+.fa
+  color: white
+  padding: 10px

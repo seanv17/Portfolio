@@ -1250,6 +1250,17 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/images\/coder_confessions.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 110883,
+		"inputAbbreviatedPath": "\/images\/coder_confessions.png",
+		"outputAbbreviatedPath": "\/images\/coder_confessions.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/ga_social.jpeg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1279,17 +1290,6 @@
 		"initialSize": 1.0805e+06,
 		"inputAbbreviatedPath": "\/images\/RDC.jpeg",
 		"outputAbbreviatedPath": "\/images\/RDC.jpeg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/RDC.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 2.60578e+06,
-		"inputAbbreviatedPath": "\/images\/RDC.png",
-		"outputAbbreviatedPath": "\/images\/RDC.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
