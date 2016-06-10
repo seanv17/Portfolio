@@ -29,7 +29,7 @@
   <!-- Checkbox for sidebar toggler -->
     <input type="checkbox" id="sidebar_toggler" name="name" value="">
       <div class="page-wrap">
-        <label for="sidebar_toggler"><img src="./images/hamburger.png" class="toggle"></label>
+        <label for="sidebar_toggler"><img src="./images/hamburger.png" class="hamburger"></label>
           <div id="contents">
             <div class="container-fluid" id="splash">
               <div class="row">
@@ -44,7 +44,7 @@
                 </div>
               </div>
             </div>
-            <div class="container-fluid" id="project_header">
+            <div class="container-fluid" id="project_header"><a name="projects"></a>
               <h1 id="projects_h1">Projects</h1>
             </div>
             <div class="container-fluid project_container">
@@ -92,19 +92,19 @@
         <div class="sidebar">
           <nav class="link_effect">
             <ul>
-              <li><a href="#" data-hover="Projects">Projects</a></li>
-              <li><a href="#" data-hover="Github">Github</a></li>
-              <li><a href="#" data-hover="LinkedIn">LinkedIn</a></li>
-              <li><a href="#" data-hover="Contact">Contact</a></li>
+              <li id="side_links"><a href="#projects" data-hover="Projects">Projects</a></li>
+              <li><a href="https://github.com/seanv17" data-hover="Github">Github</a></li>
+              <li><a href="https://www.linkedin.com/in/seanvanho" data-hover="LinkedIn">LinkedIn</a></li>
+              <li><a href="mailto:seanvanho@gmail.com" data-hover="Contact">Contact</a></li>
             </ul>
           </nav>
         </div>
       </div>
     <div class="footer">
       <div class="font_awesome">
-          <i class="fa fa-github-square fa-4x" aria-hidden="true"></i>
-          <i class="fa fa-linkedin-square fa-4x" aria-hidden="true"></i>
-          <i class="fa fa-envelope-square fa-4x" aria-hidden="true"></i>
+          <a href="https://github.com/seanv17"><i class="fa fa-github-square fa-4x" aria-hidden="true"></i></a>
+          <a href="https://www.linkedin.com/in/seanvanho"><i class="fa fa-linkedin-square fa-4x" aria-hidden="true"></i></a>
+          <a href="mailto:seanvanho@gmail.com"><i class="fa fa-envelope-square fa-4x" aria-hidden="true"></i></a>
       </div>
     </div>
   </body>

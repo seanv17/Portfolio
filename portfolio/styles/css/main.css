@@ -5,7 +5,7 @@
   -moz-transition: all 0.15s ease-out 0s;
   transition: all 0.15s ease-out 0s; }
 
-.toggle {
+.hamburger {
   position: absolute;
   top: 20px;
   right: 0;
@@ -46,7 +46,7 @@
   display: none; }
   #sidebar_toggler:checked + .page-wrap .sidebar {
     left: 0px; }
-  #sidebar_toggler:checked + .page-wrap .toggle {
+  #sidebar_toggler:checked + .page-wrap .hamburger {
     left: 200px; }
   #sidebar_toggler:checked + .page-wrap .text_elements {
     margin-left: 90px; }
@@ -166,7 +166,7 @@ nav a {
     transition-delay: 1s; }
 
 #project_header {
-  background: honeydew;
+  background: cornsilk;
   height: 40vh;
   position: relative; }
 
