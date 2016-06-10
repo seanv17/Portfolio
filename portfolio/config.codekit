@@ -1283,13 +1283,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/RDC.jpeg": {
-		"fileType": 16384,
+	"\/images\/RDC.png": {
+		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 1.0805e+06,
-		"inputAbbreviatedPath": "\/images\/RDC.jpeg",
-		"outputAbbreviatedPath": "\/images\/RDC.jpeg",
+		"initialSize": 9.75386e+06,
+		"inputAbbreviatedPath": "\/images\/RDC.png",
+		"outputAbbreviatedPath": "\/images\/RDC.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
