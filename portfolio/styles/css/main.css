@@ -209,7 +209,7 @@ nav a {
 .project_container {
   position: relative;
   background-color: ivory;
-  height: 440vh; }
+  height: 475vh; }
 
 .project_headers {
   border-bottom: solid;
@@ -224,16 +224,16 @@ nav a {
   transform: translate(-50%, -50%); }
 
 #RDC_header {
-  top: 2.5%; }
+  top: 2.7%; }
 
 #ga_header {
-  top: 25%; }
+  top: 25.6%; }
 
 #vagabond_header {
-  top: 47.5%; }
+  top: 48.4%; }
 
 #coder_confessions_header {
-  top: 70%; }
+  top: 71.3%; }
 
 @media(max-width: 1217px) {
   .text_elements .link--yaku span {
