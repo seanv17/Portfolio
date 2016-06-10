@@ -35,11 +35,14 @@
   font-family: Offside;
   font-weight: bolder; }
   .sidebar ul {
+    position: relative;
     list-style: none;
-    margin-top: 21px; }
+    margin-top: 21px;
+    text-align: center; }
   .sidebar li {
+    padding-bottom: 45px;
+    margin-left: -45px;
     font-size: 18px;
-    margin-bottom: 35px;
     -webkit-font-smoothing: antialiased; }
 
 #sidebar_toggler {
