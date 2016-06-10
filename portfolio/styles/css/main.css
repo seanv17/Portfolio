@@ -193,7 +193,8 @@ nav a {
 .blurbs {
   margin-top: 15%;
   height: 520px;
-  background-color: teal; }
+  background-color: #F8F8FF;
+  font-family: Raleway; }
 
 #RDC {
   margin-top: 15%; }
