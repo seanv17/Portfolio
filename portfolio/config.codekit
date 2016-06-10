@@ -1261,22 +1261,11 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/ga_social.jpeg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 324323,
-		"inputAbbreviatedPath": "\/images\/ga_social.jpeg",
-		"outputAbbreviatedPath": "\/images\/ga_social.jpeg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/images\/ga_social.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 4.09718e+06,
+		"initialSize": 4.09625e+06,
 		"inputAbbreviatedPath": "\/images\/ga_social.png",
 		"outputAbbreviatedPath": "\/images\/ga_social.png",
 		"outputPathIsOutsideProject": 0,
