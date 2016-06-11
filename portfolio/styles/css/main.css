@@ -211,7 +211,7 @@ nav a {
 .project_container {
   position: relative;
   background-color: ivory;
-  height: 435vh; }
+  height: 415vh; }
 
 .project_headers {
   border-bottom: solid;
@@ -268,16 +268,21 @@ nav a {
 body {
   position: relative; }
 
+.page-wrap {
+  position: relative;
+  margin-bottom: 200px;
+  z-index: 3; }
+
 .footer {
-  position: absolute;
+  position: fixed;
   right: 0;
   bottom: 0;
   left: 0;
   padding-top: 30px;
   background-color: red;
-  height: 140px;
+  height: 200px;
   text-align: center; }
-
-.fa {
-  color: ivory;
-  padding: 10px; }
+  .footer .fa {
+    margin-top: 30px;
+    color: ivory;
+    padding: 10px; }
