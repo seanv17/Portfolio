@@ -240,6 +240,10 @@ nav a {
 #coder_confessions_header {
   top: 2160px; }
 
+.logins {
+  width: 180px;
+  margin-right: 10px; }
+
 @media(max-width: 1217px) {
   .text_elements .link--yaku span {
     font-size: 70px; } }
