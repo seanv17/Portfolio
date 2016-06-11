@@ -278,10 +278,8 @@ body {
   right: 0;
   bottom: 0;
   left: 0;
-  padding-top: 30px;
   background-color: red;
   height: 200px;
-  text-align: center;
   display: block;
   font-size: 0;
   list-style: none;
@@ -310,11 +308,11 @@ body {
     margin-top: -0.75em;
     position: absolute;
     text-align: center;
-    top: 50%;
+    top: 5%;
     right: 0;
     bottom: 0;
     left: 0; }
-  .footer .icon-8:hover, .footer .icon-13:hover, .footer .icon-17:hover {
+  .footer .icon-1:hover, .footer .icon-2:hover, .footer .icon-3:hover {
     border-radius: 100%;
     color: ivory;
     fill: ivory;
@@ -324,18 +322,8 @@ body {
     transition: background-color 0.5s, -webkit-transform 0.5s ease-out;
     transition: background-color 0.5s, transform 0.5s ease-out;
     transition: background-color 0.5s, transform 0.5s ease-out, -webkit-transform 0.5s ease-out; }
-  .footer .icon-8 {
+  .footer .icon-1, .footer .icon-2, .footer icon-3 {
     color: black;
     fill: black; }
-  .footer .icon-8:hover {
-    background: black; }
-  .footer .icon-13 {
-    color: black;
-    fill: black; }
-  .footer .icon-13:hover {
-    background: black; }
-  .footer .icon-17 {
-    color: black;
-    fill: black; }
-  .footer .icon-17:hover {
+  .footer .icon-1:hover, .footer .icon-2:hover, .footer .icon-3:hover {
     background: black; }
