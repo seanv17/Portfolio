@@ -281,8 +281,61 @@ body {
   padding-top: 30px;
   background-color: red;
   height: 200px;
+  text-align: center;
+  display: block;
+  font-size: 0;
+  list-style: none;
+  margin: 0;
+  padding: 48px;
+  padding: 4.8rem;
   text-align: center; }
-  .footer .fa {
-    margin-top: 30px;
+  .footer li {
+    display: inline-block;
+    margin: 12px;
+    margin: 1.2rem; }
+  .footer a, .footer svg {
+    display: block; }
+  .footer a {
+    position: relative;
+    height: 96px;
+    height: 9.6rem;
+    width: 96px;
+    width: 9.6rem; }
+  .footer svg {
+    height: 100%;
+    width: 100%; }
+  .footer em {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-top: -0.75em;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    right: 0;
+    bottom: 0;
+    left: 0; }
+  .footer .icon-8:hover, .footer .icon-13:hover, .footer .icon-17:hover {
+    border-radius: 100%;
     color: ivory;
-    padding: 10px; }
+    fill: ivory;
+    -webkit-transform: scale(1.25);
+      -webkit-transform-transform: scale(1.25);
+    -webkit-transition: background-color 0.5s, -webkit-transform 0.5s ease-out;
+    transition: background-color 0.5s, -webkit-transform 0.5s ease-out;
+    transition: background-color 0.5s, transform 0.5s ease-out;
+    transition: background-color 0.5s, transform 0.5s ease-out, -webkit-transform 0.5s ease-out; }
+  .footer .icon-8 {
+    color: black;
+    fill: black; }
+  .footer .icon-8:hover {
+    background: black; }
+  .footer .icon-13 {
+    color: black;
+    fill: black; }
+  .footer .icon-13:hover {
+    background: black; }
+  .footer .icon-17 {
+    color: black;
+    fill: black; }
+  .footer .icon-17:hover {
+    background: black; }
