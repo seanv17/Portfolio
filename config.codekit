@@ -1294,6 +1294,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/RDC.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 524288,
+		"inputAbbreviatedPath": "\/images\/RDC.png",
+		"outputAbbreviatedPath": "\/images\/RDC.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/vagabond.jpeg": {
 		"fileType": 16384,
 		"ignore": 0,
