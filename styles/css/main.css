@@ -314,6 +314,7 @@ body {
     left: 0; }
   .footer .icon-1:hover, .footer .icon-2:hover, .footer .icon-3:hover {
     border-radius: 100%;
+    background: #00001C;
     color: ivory;
     fill: ivory;
     -webkit-transform: scale(1.25);
@@ -322,8 +323,6 @@ body {
     transition: background-color 0.5s, -webkit-transform 0.5s ease-out;
     transition: background-color 0.5s, transform 0.5s ease-out;
     transition: background-color 0.5s, transform 0.5s ease-out, -webkit-transform 0.5s ease-out; }
-  .footer .icon-1, .footer .icon-2, .footer icon-3 {
-    color: black;
-    fill: black; }
-  .footer .icon-1:hover, .footer .icon-2:hover, .footer .icon-3:hover {
-    background: black; }
+  .footer .icon-1, .footer .icon-2, .footer .icon-3 {
+    color: #00001C;
+    fill: #00001C; }
