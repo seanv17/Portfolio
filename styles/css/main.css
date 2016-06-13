@@ -187,14 +187,14 @@ nav a {
 
 .projects {
   margin-top: 15%;
-  height: 520px;
+  height: 610px;
   overflow-y: scroll;
   padding-left: 0px;
   padding-right: 0px; }
 
 .blurbs {
   margin-top: 15%;
-  height: 520px;
+  height: 610px;
   background-color: #F8F8FF;
   font-family: Raleway;
   padding-left: 20px; }
@@ -211,7 +211,7 @@ nav a {
 .project_container {
   position: relative;
   background-color: ivory;
-  height: 420vh; }
+  height: 470vh; }
 
 .project_headers {
   border-bottom: solid;
@@ -229,20 +229,27 @@ nav a {
   top: 80px; }
 
 #ga_header {
-  top: 770px; }
+  top: 860px; }
 
 #ga_image {
   height: 100%; }
 
 #vagabond_header {
-  top: 1470px; }
+  top: 1645px; }
 
 #coder_confessions_header {
-  top: 2160px; }
+  top: 2425px; }
+
+#coder_image {
+  height: 100%; }
 
 .logins {
   width: 180px;
-  margin-right: 10px; }
+  margin-right: 10px;
+  margin-bottom: 10px; }
+
+.credit-card {
+  width: 400px; }
 
 @media(max-width: 1217px) {
   .text_elements .link--yaku span {

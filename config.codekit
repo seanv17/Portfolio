@@ -1283,6 +1283,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/laptop.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 130681,
+		"inputAbbreviatedPath": "\/images\/laptop.png",
+		"outputAbbreviatedPath": "\/images\/laptop.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/RDC.jpeg": {
 		"fileType": 16384,
 		"ignore": 0,
