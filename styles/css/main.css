@@ -53,6 +53,8 @@
     left: 200px; }
   #sidebar_toggler:checked + .page-wrap .text_elements {
     margin-left: 90px; }
+  #sidebar_toggler:checked + .page-wrap .project_headers {
+    margin-left: 90px; }
 
 nav a {
   position: relative;

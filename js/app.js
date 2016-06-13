@@ -5,10 +5,4 @@ $(document).ready(function() {
     $("#sidebar_toggler").prop('checked', false);
   });
 
-  $(window).scroll(function(){
-    var wScroll = $(this).scrollTop();
-    console.log(wScroll);
-  });
-
-
 });
