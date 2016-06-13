@@ -188,7 +188,9 @@ nav a {
 .projects {
   margin-top: 15%;
   height: 520px;
-  overflow-y: scroll; }
+  overflow-y: scroll;
+  padding-left: 0px;
+  padding-right: 0px; }
 
 .blurbs {
   margin-top: 15%;
@@ -204,9 +206,7 @@ nav a {
   margin-top: 15%; }
 
 .project_images {
-  width: 780px;
-  margin-left: -15px;
-  padding-right: 5px; }
+  max-width: 100%; }
 
 .project_container {
   position: relative;
