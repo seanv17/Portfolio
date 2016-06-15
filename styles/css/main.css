@@ -443,4 +443,11 @@ nav a {
     .project_container #vagabond_blurb {
       margin-top: -215px; }
     .project_container #coder_confessions_header {
-      margin-top: 1150px; } }
+      margin-top: 1150px; }
+
+  .footer {
+    height: 125px;
+    width: 100%; }
+    .footer .social .icons {
+      width: 60px;
+      margin-top: -40px; } }
