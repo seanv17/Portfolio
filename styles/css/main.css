@@ -278,7 +278,7 @@ nav a {
 .project_container {
   position: relative;
   background-color: ivory;
-  height: 470vh; }
+  height: 3250px; }
 
 .project_headers {
   border-bottom: solid;
@@ -322,10 +322,13 @@ nav a {
     font-size: 70px; }
 
   #contents #projects_h1 {
-    font-size: 80px; } }
+    font-size: 80px; }
+
+  .project_container {
+    height: 3300px; } }
 @media(max-width: 1044px) {
   .project_container {
-    height: 805vh; }
+    height: 5650px; }
     .project_container .project_headers {
       font-size: 39px; }
     .project_container #RDC_blurb {
@@ -346,24 +349,32 @@ nav a {
       margin-top: 20px; } }
 @media(max-width: 1018px) {
   .project_container {
-    height: 785vh; }
+    height: 5650px; }
     .project_container .project_headers {
       font-size: 38px; }
     .project_container #ga_header {
+      margin-top: 600px; }
+    .project_container #vagabond_header {
+      margin-top: 1205px; }
+    .project_container #coder_confessions_header {
+      margin-top: 1810px; } }
+@media(max-width: 991px) {
+  .project_container {
+    height: 5550px; }
+    .project_container .project_headers {
+      font-size: 37px; }
+    .project_container #RDC_header {
+      margin-top: -25px; }
+    .project_container #ga_header {
       margin-top: 545px; }
     .project_container #vagabond_header {
-      margin-top: 1115px; }
+      margin-top: 1125px; }
     .project_container #coder_confessions_header {
       margin-top: 1685px; } }
-@media(max-width: 991px) {
-  .project_container .project_headers {
-    font-size: 37px; }
-  .project_container #RDC_header {
-    margin-top: -25px; } }
-@media(max-width: 967px) {
-  .project_container .project_headers {
-    font-size: 36px; } }
 @media(max-width: 960px) {
+  .project_container .project_headers {
+    font-size: 36px; }
+
   .text_elements .link--yaku span {
     font-size: 60px; }
 
@@ -376,19 +387,10 @@ nav a {
   .project_container .project_headers {
     font-size: 28px; } }
 @media(max-width: 680px) {
-  .project_container .project_headers {
-    font-size: 25px; }
-  .project_container #ga_header {
-    margin-top: 525px; }
-  .project_container #vagabond_header {
-    margin-top: 1080px; }
-  .project_container #coder_confessions_header {
-    margin-top: 1625px; } }
-@media(max-width: 680px) {
   .project_container {
-    height: 760vh; }
+    height: 5350px; }
     .project_container .project_headers {
-      font-size: 17px; }
+      font-size: 25px; }
     .project_container #RDC_header {
       margin-top: -25px; }
     .project_container #ga_header {
@@ -398,10 +400,14 @@ nav a {
     .project_container #coder_confessions_header {
       margin-top: 1635px; }
 
+  #contents #projects_h1 {
+    font-size: 60px; }
+
   .footer {
-    height: 50px; }
+    height: 125px; }
     .footer .social .icons {
-      width: 60px; } }
+      width: 60px;
+      margin-top: -40px; } }
 @media(max-width: 375px) {
   .text_elements .link--yaku span {
     font-size: 40px; }
@@ -418,7 +424,7 @@ nav a {
       font-size: 25px; }
 
   #contents #projects_h1 {
-    font-size: 50px; }
+    font-size: 40px; }
 
   .project_container {
     height: 840vh; }
