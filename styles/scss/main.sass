@@ -5,6 +5,7 @@
   position: relative
   z-index: 0
   +transition()
+  text-align: center
 
 // ********** Hamburger icon ********** //
 .hamburger
@@ -14,6 +15,74 @@
   width: 50px
   margin-top: -7px
   cursor: pointer
+
+body
+  position: relative
+
+.page-wrap
+  position: relative
+  margin-bottom: 200px
+  z-index: 3
+
+.footer
+  position: fixed
+  right: 0
+  bottom: 0
+  left: 0
+  background-color: red
+  height: 200px
+
+  .social
+    display: block
+    font-size: 0
+    list-style: none
+    margin: 0
+    padding: 48px // IE8
+    padding: 4.8rem
+    text-align: center
+  li
+    display: inline-block
+    margin: 12px // IE8
+    margin: 1.2rem
+  a, svg
+    display: block
+  a
+    position: relative // IE8
+    height: 96px // IE8
+    height: 9.6rem
+    width: 96px // IE8
+    width: 9.6rem
+  svg
+    height: 100%
+    width: 100%
+  // IE8:
+  em
+    font-size: 14px
+    line-height: 1.5
+    margin-top: -.75em
+    position: absolute
+    text-align: center
+    top: 5%
+    right: 0
+    bottom: 0
+    left: 0
+
+  // social icons animations
+  .icons:hover
+    border-radius: 100%
+    background: #00001C
+    color: ivory
+    fill: ivory
+    -webkit-transform: scale(1.25)
+      transform: scale(1.25)
+    -webkit-transition: background-color 0.5s, -webkit-transform 0.5s ease-out
+    transition: background-color 0.5s, -webkit-transform 0.5s ease-out
+    transition: background-color 0.5s, transform 0.5s ease-out
+    transition: background-color 0.5s, transform 0.5s ease-out, -webkit-transform 0.5s ease-out
+
+  .icons
+    color: #00001C
+    fill: #00001C
 
 // ********** Slideout sidebar ********** //
 .sidebar
@@ -206,14 +275,15 @@ nav a
 #projects_h1
   border-top: solid
   border-bottom: solid
-  padding: 10px
   font-family: Megrim
   color: red
   font-weight: bolder
   font-size: 100px
+  display: inline-block
   position: absolute
-  left: 34%
-  top: 19%
+  left: 50%
+  top: 40%
+  transform: translate(-50%, -50%)
 
 .projects
   margin-top: 15%
@@ -246,7 +316,6 @@ nav a
 .project_headers
   border-bottom: solid
   border-width: thin
-  padding: 10px
   font-family: Montserrat
   color: red
   font-weight: bolder
@@ -274,7 +343,7 @@ nav a
   height: 100%
 
 .logins
-  width: 180px
+  width: 182px
   margin-right: 10px
   margin-bottom: 10px
 
@@ -286,6 +355,55 @@ nav a
   .text_elements
     .link--yaku span
       font-size: 70px
+  #contents
+    #projects_h1
+      font-size: 80px
+
+@media(max-width: 1044px)
+  .project_container
+    height: 805vh
+    .project_headers
+      font-size: 39px
+    #RDC_blurb
+      margin-top: 20px
+    #ga_header
+      margin-top: 595px
+    #ga_blurb
+      margin-top: 20px
+    #vagabond_header
+      margin-top: 1190px
+    #vagabond_blurb
+      margin-top: 20px
+    #coder_image
+      width: 100%
+    #coder_confessions_header
+      margin-top: 1800px
+    #coder_confessions_blurb
+      margin-top: 20px
+
+@media(max-width: 1018px)
+  .project_container
+    height: 785vh
+    .project_headers
+      font-size: 38px
+    #ga_header
+      margin-top: 545px
+    #vagabond_header
+      margin-top: 1115px
+    #coder_confessions_header
+      margin-top: 1685px
+
+@media(max-width: 991px)
+  .project_container
+    .project_headers
+      font-size: 37px
+    #RDC_header
+      margin-top: -25px
+
+@media(max-width: 967px)
+  .project_container
+    .project_headers
+      font-size: 36px
 
 @media(max-width: 960px)
   .text_elements
@@ -294,13 +412,44 @@ nav a
   #splash h2
     font-size: 26px
 
-// iPhone 5
-@media(max-width: 320px)
-  .text_elements
-    .link--yaku span
-      font-size: 35px
-  #splash h2
-    font-size: 14px
+@media(max-width: 915px)
+  .project_container
+    .project_headers
+      font-size: 30px
+
+@media(max-width: 786px)
+  .project_container
+    .project_headers
+      font-size: 28px
+
+@media(max-width: 680px)
+  .project_container
+    .project_headers
+      font-size: 25px
+    #ga_header
+      margin-top: 525px
+    #vagabond_header
+      margin-top: 1080px
+    #coder_confessions_header
+      margin-top: 1625px
+
+@media(max-width: 680px)
+  .project_container
+    height: 760vh
+    .project_headers
+      font-size: 17px
+    #RDC_header
+      margin-top: -25px
+    #ga_header
+      margin-top: 535px
+    #vagabond_header
+      margin-top: 1085px
+    #coder_confessions_header
+      margin-top: 1635px
+  .footer
+    height: 50px
+    .social .icons
+      width: 60px
 
 // iPhone 6
 @media(max-width: 375px)
@@ -310,70 +459,33 @@ nav a
   #splash h2
     font-size: 14px
 
-body
-  position: relative
-
-.page-wrap
-  position: relative
-  margin-bottom: 200px
-  z-index: 3
-
-.footer
-  position: fixed
-  right: 0
-  bottom: 0
-  left: 0
-  background-color: red
-  height: 200px
-
-  .social
-    display: block
-    font-size: 0
-    list-style: none
-    margin: 0
-    padding: 48px // IE8
-    padding: 4.8rem
-    text-align: center
-  li
-    display: inline-block
-    margin: 12px // IE8
-    margin: 1.2rem
-  a, svg
-    display: block
-  a
-    position: relative // IE8
-    height: 96px // IE8
-    height: 9.6rem
-    width: 96px // IE8
-    width: 9.6rem
-  svg
-    height: 100%
-    width: 100%
-  // IE8:
-  em
+// iPhone 5
+@media(max-width: 320px)
+  .text_elements
+    .link--yaku span
+      font-size: 35px
+  #splash
     font-size: 14px
-    line-height: 1.5
-    margin-top: -.75em
-    position: absolute
-    text-align: center
-    top: 5%
-    right: 0
-    bottom: 0
-    left: 0
-
-  // social icons animations
-  .icon-1:hover, .icon-2:hover, .icon-3:hover,
-    border-radius: 100%
-    background: #00001C
-    color: ivory
-    fill: ivory
-    -webkit-transform: scale(1.25)
-      transform: scale(1.25)
-    -webkit-transition: background-color 0.5s, -webkit-transform 0.5s ease-out
-    transition: background-color 0.5s, -webkit-transform 0.5s ease-out
-    transition: background-color 0.5s, transform 0.5s ease-out
-    transition: background-color 0.5s, transform 0.5s ease-out, -webkit-transform 0.5s ease-out
-
-  .icon-1, .icon-2, .icon-3,
-    color: #00001C
-    fill: #00001C
+    .hvr-pulse-grow
+      font-size: 25px
+  #contents
+    #projects_h1
+      font-size: 50px
+  .project_container
+    height: 840vh
+    .project_headers
+      font-size: 12px
+    .blurbs
+      font-size: 12px
+    #RDC_header
+      margin-top: -55px
+    #RDC_blurb
+      margin-top: -40px
+    #ga_header
+      margin-top: 385px
+    #vagabond_header
+      margin-top: 885px
+    #vagabond_blurb
+      margin-top: -215px
+    #coder_confessions_header
+      margin-top: 1150px
