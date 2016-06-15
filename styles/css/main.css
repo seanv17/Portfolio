@@ -342,7 +342,7 @@ nav a {
     .project_container #vagabond_blurb {
       margin-top: 20px; }
     .project_container #coder_image {
-      width: 100%; }
+      width: auto; }
     .project_container #coder_confessions_header {
       margin-top: 1800px; }
     .project_container #coder_confessions_blurb {
