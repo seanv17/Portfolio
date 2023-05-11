@@ -150,6 +150,8 @@ body {
 #splash {
   background: ivory;
   text-align: center;
+  height: 100vh;
+  padding-top: 20%;
 }
   #splash .text_elements {
     text-align: center;
@@ -228,7 +230,7 @@ body {
     -webkit-transition-delay: 1s;
     transition-delay: 1s; }
 
-#project_header {
+/* #project_header {
   background: cornsilk;
   height: 40vh;
   position: relative; }
@@ -244,7 +246,7 @@ body {
   position: absolute;
   left: 50%;
   top: 40%;
-  transform: translate(-50%, -50%); }
+  transform: translate(-50%, -50%); } */
 
 /* .projects {
   margin-top: 15%;
