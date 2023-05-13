@@ -111,7 +111,7 @@ body {
     -webkit-transition-delay: 1s;
     transition-delay: 1s; }
 
-@media (min-width: 600px) and (max-width: 768px) {
+@media (min-width: 320px) and (max-width: 768px) {
   #splash .link--yaku {
     font-size: 55px;
   }
